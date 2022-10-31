@@ -1,0 +1,12 @@
+.filters {
+    padding-top: 61px;
+}
+
+.filters-block {
+    margin-top: 30px;
+}
+
+.filters-block > button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

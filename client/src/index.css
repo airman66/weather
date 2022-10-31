@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Inter", serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: #78AEFF;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.page-title-sm {
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.page-description {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 25px;
+}

@@ -1,0 +1,20 @@
+.header-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header-list-item {
+    display:flex;
+}
+
+.header-list-item img {
+    border-radius: 50%;
+    border: 1px solid transparent;
+    padding: 5px;
+    margin-bottom: 0;
+
+}
+
+.header-list-item--active img {
+    border-color: white;
+}

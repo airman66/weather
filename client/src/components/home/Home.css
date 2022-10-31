@@ -1,0 +1,33 @@
+.logo {
+    width: 100%;
+    display: block;
+    padding-top: 180px;
+    max-width: 352px;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.links > a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.link > span {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.link > img {
+    width: 15px;
+    height: 15px;
+}

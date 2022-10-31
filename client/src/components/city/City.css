@@ -1,0 +1,74 @@
+.city {
+    padding-top: 34px;
+    padding-bottom: 32px;
+}
+
+.city-temperature {
+    font-size: 64px;
+    text-align: center;
+}
+
+.city-wind {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.city-24h {
+    width: 100%;
+    overflow-x: scroll;
+    background-color: rgba(218, 233, 255, 0.5);
+    border-radius: 15px;
+    padding-top: 13px;
+    padding-left: 13px;
+    padding-bottom: 7px;
+    margin-bottom: 16px;
+}
+
+.city-24h td {
+    font-size: 16px;
+    padding: 2px;
+    margin-right: 18px;
+}
+
+.city-24h td:last-child {
+    margin-right: 0;
+}
+
+.city-10d {
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgba(218, 233, 255, 0.5);
+    padding: 14px 25px 16px 13px;
+}
+
+.city-10d td {
+    font-size: 16px;
+    text-align: left;
+    padding-right: 15px;
+}
+
+.city-10d td:last-child {
+    padding-right: 0;
+}
+
+.city-additional-info {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.city-additional-info-item {
+    height: 110px;
+    width: 110px;
+    background-color: rgba(218, 233, 255, 0.5);
+    border-radius: 15px;
+    font-size: 16px;
+    padding-top: 13px;
+    padding-left: 11px;
+}
+
+.city-additional-info-item span {
+    font-size: 36px;
+}
